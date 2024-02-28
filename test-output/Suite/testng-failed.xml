@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilities.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testcase.LoginCredentials">
+        <methods>
+          <include name="teardown"/>
+          <include name="password_validation"/>
+          <include name="login"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcase.LoginCredentials -->
+      <class name="testcase.NewBikes">
+        <methods>
+          <include name="selectbrand"/>
+          <include name="bikesidentification"/>
+          <include name="teardown"/>
+          <include name="test"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcase.NewBikes -->
+      <class name="testcase.UsedCars">
+        <methods>
+          <include name="usedcars"/>
+          <include name="cityselect"/>
+          <include name="teardown"/>
+          <include name="popularmodels"/>
+          <include name="setupDriver"/>
+        </methods>
+      </class> <!-- testcase.UsedCars -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

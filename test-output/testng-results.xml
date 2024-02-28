@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-27T21:43:57 IST" name="Suite" finished-at="2024-02-27T21:44:56 IST" duration-ms="58814">
+    <groups>
+    </groups>
+    <test started-at="2024-02-27T21:43:57 IST" name="Test" finished-at="2024-02-27T21:44:56 IST" duration-ms="58814">
+      <class name="testcase.LoginCredentials">
+        <test-method signature="login()[pri:6, instance:testcase.LoginCredentials@1ff4931d]" started-at="2024-02-27T21:44:46 IST" name="login" finished-at="2024-02-27T21:44:52 IST" duration-ms="6103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="password_validation(java.lang.String,java.lang.String)[pri:7, instance:testcase.LoginCredentials@1ff4931d]" started-at="2024-02-27T21:44:52 IST" name="password_validation" data-provider="invalid_password" finished-at="2024-02-27T21:44:55 IST" duration-ms="3033" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[asswin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdfg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password_validation -->
+      </class> <!-- testcase.LoginCredentials -->
+      <class name="testcase.UsedCars">
+        <test-method signature="usedcars()[pri:3, instance:testcase.UsedCars@710f4dc7]" started-at="2024-02-27T21:44:28 IST" name="usedcars" finished-at="2024-02-27T21:44:28 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedcars -->
+        <test-method signature="cityselect()[pri:4, instance:testcase.UsedCars@710f4dc7]" started-at="2024-02-27T21:44:28 IST" name="cityselect" finished-at="2024-02-27T21:44:35 IST" duration-ms="6037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cityselect -->
+        <test-method signature="popularmodels()[pri:5, instance:testcase.UsedCars@710f4dc7]" started-at="2024-02-27T21:44:35 IST" name="popularmodels" finished-at="2024-02-27T21:44:44 IST" duration-ms="9773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularmodels -->
+      </class> <!-- testcase.UsedCars -->
+      <class name="testcase.NewBikes">
+        <test-method is-config="true" signature="setupDriver(java.lang.String)[pri:0, instance:testcase.NewBikes@2aceadd4]" started-at="2024-02-27T21:43:58 IST" name="setupDriver" finished-at="2024-02-27T21:44:06 IST" duration-ms="7706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method signature="test()[pri:0, instance:testcase.NewBikes@2aceadd4]" started-at="2024-02-27T21:44:06 IST" name="test" finished-at="2024-02-27T21:44:11 IST" duration-ms="5465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="selectbrand()[pri:1, instance:testcase.NewBikes@2aceadd4]" started-at="2024-02-27T21:44:12 IST" name="selectbrand" finished-at="2024-02-27T21:44:16 IST" duration-ms="4664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectbrand -->
+        <test-method signature="bikesidentification()[pri:2, instance:testcase.NewBikes@2aceadd4]" started-at="2024-02-27T21:44:17 IST" name="bikesidentification" finished-at="2024-02-27T21:44:28 IST" duration-ms="11370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikesidentification -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.NewBikes@2aceadd4]" started-at="2024-02-27T21:44:55 IST" name="teardown" finished-at="2024-02-27T21:44:56 IST" duration-ms="1191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.NewBikes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
